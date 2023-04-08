@@ -1,12 +1,13 @@
-//wap to check whether a character is a vowel or consonant character
-void main(){
-  String ch = "a";
+//WAP  check whether a character is vowel or consonant.
+void main() {
+  String ch = 'r';
+  VowelConsonant(ch);
 }
-void check(){
-  var ch;
-  if(ch=="a" || ch=="e" || ch=="i" || ch=="o" || ch=="u"){
-    print("Vowel");
-  }else{
-    print("Consonant");
+
+void VowelConsonant(String ch) {
+  if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+    print('$ch is vowel.');
+  } else {
+    print('$ch is a consonant.');
   }
 }
