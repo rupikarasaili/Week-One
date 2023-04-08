@@ -1,7 +1,7 @@
 //WAP to check if the number is odd or even
 
 void main() {
-  oddEven();
+  oddEven(8);
 }
 
 void oddEven(int num) {
